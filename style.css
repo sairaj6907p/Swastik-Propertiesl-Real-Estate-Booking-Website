@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+nav {
+  background: #222;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+section {
+  padding: 70px 20px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#hero {
+  background-image: url('assets/images/hero-bg.jpg');
+  text-align: center;
+}
+
+#about {
+  background-image: url('assets/images/about-bg.jpg');
+}
+
+#projects {
+  background-image: url('assets/images/projects-bg.jpg');
+}
+
+#sitevisit, #brochure, #videosection, #location, #contact {
+  background-color: #111;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.project {
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.long-button {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  margin: 15px auto;
+  padding: 18px 25px;
+  font-size: 1.1rem;
+  background: #fff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.long-button:hover {
+  background: #ccc;
+  color: #000;
+}
+
+.video-wrapper {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+}
+
+@media (max-width: 768px) {
+  .video-wrapper iframe {
+    height: 250px;
+  }
+}
+
+footer {
+  background-image: url('assets/images/footer-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer a {
+  color: #fff;
+  margin:
+  return 0;
+}
